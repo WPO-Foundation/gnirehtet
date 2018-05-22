@@ -2,5 +2,8 @@ build/
 .gradle/
 .idea/
 *.iml
+*.o
 /local.properties
 app/release/output.json
+app/.externalNativeBuild/
+app/local.properties

@@ -32,6 +32,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 public class Forwarder {
+    static {
+        System.loadLibrary("forwarder");
+    }
 
     private static final ExecutorService EXECUTOR_SERVICE = Executors.newFixedThreadPool(3);
 
